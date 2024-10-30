@@ -1,0 +1,338 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: green;
+  background-color: white;
+}
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav.justify-content-end.fixed-top {
+  background-color: green; /* contoh warna latar belakang */
+  color: #000; /* warna teks */
+}
+
+.nav-link.active{
+  color: white;
+}
+
+.nav-link.active:hover {
+  color: #2d6a4f; /* Warna teks saat di-hover */
+}
+
+.container-fluid{
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 40px;
+}
+
+/* Mengatur warna latar belakang dan warna teks navbar */
+.navbar.bg-body-tertiary.sticky-top{
+  color: #347928;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.216); /* efek bayangan */
+}
+
+/* Mengatur warna, ukuran font, dan dekorasi link navbar */
+.navbar .nav-link {
+  color: #347928; /* Warna teks */
+  font-size: 18px; /* Ukuran font */
+  font-family: Arial, sans-serif; /* Ganti sesuai kebutuhan */
+  text-decoration: none; /* Hilangkan garis bawah */
+}
+
+.navbar .nav-link:hover {
+  color: #2d6a4f; /* Warna teks saat di-hover */
+}
+
+/* Mengatur tombol Sumbangan dan PMB */
+.navbar .btn {
+  font-size: 16px; /* Ukuran font tombol */
+  font-weight: bold; /* Tebal font */
+  padding: 8px 16px; /* Ruang dalam tombol */
+  border-radius: 8px; /* Sudut tombol melengkung */
+}
+
+/* Mengatur menu dropdown */
+.navbar .dropdown-menu {
+  background-color: #f9f9f9; /* Latar belakang dropdown */
+}
+
+.nav-link.haha.dropdown-toggle{
+  color: #f9f9f9;
+}
+
+/* .nav.justify-content-end.fixed-top .li a{
+  margin-top: 5px;
+} */
+
+.navbar .dropdown-item {
+  color: #347928; /* Warna teks item dropdown */
+  font-size: 16px; /* Ukuran font dropdown */
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #C0EBA6; /* Warna saat di-hover */
+  color: #2d6a4f;
+} */
+/* Styling untuk dropdown menu */
+.dropdown-menu {
+  background-color: #ffffff; /* Warna latar belakang dropdown */
+  border: 1px solid #dee2e6; /* Border untuk dropdown */
+  border-radius: 0.5rem; /* Sudut melengkung untuk dropdown */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+  transition: all 0.3s ease; /* Transisi halus saat dropdown muncul */
+  z-index: 1000; /* Menempatkan dropdown di atas elemen lain */
+}
+
+/* Styling untuk item dropdown */
+.dropdown-item {
+  color: #347928; /* Warna teks item dropdown */
+  padding: 10px 15px; /* Ruang dalam item dropdown */
+  transition: background-color 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+/* Efek hover untuk item dropdown */
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Warna latar belakang saat hover */
+  color: #40b32b; /* Warna teks saat hover */
+}
+
+/* Styling untuk dropdown toggle */
+.nav-link.dropdown-toggle {
+  color: #212529; /* Warna teks untuk dropdown toggle */
+  padding: 10px 15px; /* Ruang dalam untuk dropdown toggle */
+  transition: color 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+/* Efek hover untuk dropdown toggle */
+.nav-link.dropdown-toggle:hover {
+  color: #37d81b; /* Warna teks saat hover */
+}
+
+/* Menyembunyikan dropdown saat tidak aktif */
+.dropdown-menu.show {
+  display: block; /* Menampilkan dropdown ketika aktif */
+}
+/* styel footer */
+/* Style for the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+/* Style for the header */
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:#216b3f;
+}
+
+/* Style for the links */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #37d81b;
+}
+.col {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.col h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.col a {
+  font-size: 16px;
+  color: #41B06E;
+}
+
+
+.col a:hover {
+  color: #347928;
+}
+
+/* Style for the footer */
+.footer-left {
+  margin-right: auto;
+}
+
+.footer-right {
+  margin-left: auto;
+}
+
+/* Style for the horizontal rule */
+hr {
+  border: 1px solid #ccc;
+  width: 90%;
+  margin: auto;
+}
+
+/* Style for the social media icons */
+.fab {
+  font-size: 1.5rem;
+}
+
+footer {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+.calendar {
+  margin: 0 auto;
+  width: clamp(320px, 400px, 90%);
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+}
+
+.calendar header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.calendar nav {
+  display: flex;
+  align-items: center;
+}
+
+.calendar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  color: black;
+}
+
+.calendar ul li {
+  width: calc(100% / 7);
+  position: relative;
+  z-index: 2;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#prev,
+#next {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#prev::before,
+#next::before {
+  content: "";
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-width: 0.25em 0.25em 0 0;
+  border-color: #ccc;
+}
+
+#next::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+#prev::before {
+  transform: translate(-50%, -50%) rotate(-135deg);
+}
+
+#prev:hover::before,
+#next:hover::before {
+  border-color: #000;
+}
+
+.days {
+  font-weight: 600;
+}
+
+.dates li.today {
+  color: #fff;
+}
+
+.dates li.today::before {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: red;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.dates li.inactive {
+  color: #ccc;
+}
+
+/* Media query untuk layar sempit */
+@media (max-width: 600px) {
+  .calendar {
+    width: 90%;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+  }
+
+  .calendar header h3 {
+    font-size: 1.2rem;
+  }
+
+  .calendar ul li {
+    width: calc(100% / 7);
+    font-size: 0.8rem;
+  }
+
+  #prev,
+  #next {
+    width: 16px;
+    height: 16px;
+  }
+
+  .dates li.today::before {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}

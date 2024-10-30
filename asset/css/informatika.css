@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: green;
+  background-color: white;
+}
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav.justify-content-end.fixed-top {
+  background-color: green; /* contoh warna latar belakang */
+  color: #000; /* warna teks */
+}
+
+.nav-link.active{
+  color: white;
+}
+
+.nav-link.active:hover {
+  color: #2d6a4f; /* Warna teks saat di-hover */
+}
+
+.container-fluid{
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 40px;
+}
+
+/* Mengatur warna latar belakang dan warna teks navbar */
+.navbar.bg-body-tertiary.sticky-top{
+  color: #347928;
+  box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.216); /* efek bayangan */
+}
+
+/* Mengatur warna, ukuran font, dan dekorasi link navbar */
+.navbar .nav-link {
+  color: #347928; /* Warna teks */
+  font-size: 18px; /* Ukuran font */
+  font-family: Arial, sans-serif; /* Ganti sesuai kebutuhan */
+  text-decoration: none; /* Hilangkan garis bawah */
+}
+
+.navbar .nav-link:hover {
+  color: #2d6a4f; /* Warna teks saat di-hover */
+}
+
+/* Mengatur tombol Sumbangan dan PMB */
+.navbar .btn {
+  font-size: 16px; /* Ukuran font tombol */
+  font-weight: bold; /* Tebal font */
+  padding: 8px 16px; /* Ruang dalam tombol */
+  border-radius: 8px; /* Sudut tombol melengkung */
+}
+
+/* Mengatur menu dropdown */
+.navbar .dropdown-menu {
+  background-color: #f9f9f9; /* Latar belakang dropdown */
+}
+
+.nav-link.haha.dropdown-toggle{
+  color: #f9f9f9;
+}
+
+/* .nav.justify-content-end.fixed-top .li a{
+  margin-top: 5px;
+} */
+
+.navbar .dropdown-item {
+  color: #347928; /* Warna teks item dropdown */
+  font-size: 16px; /* Ukuran font dropdown */
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #C0EBA6; /* Warna saat di-hover */
+  color: #2d6a4f;
+} */
+/* Styling untuk dropdown menu */
+.dropdown-menu {
+  background-color: #ffffff; /* Warna latar belakang dropdown */
+  border: 1px solid #dee2e6; /* Border untuk dropdown */
+  border-radius: 0.5rem; /* Sudut melengkung untuk dropdown */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+  transition: all 0.3s ease; /* Transisi halus saat dropdown muncul */
+  z-index: 1000; /* Menempatkan dropdown di atas elemen lain */
+}
+
+/* Styling untuk item dropdown */
+.dropdown-item {
+  color: #347928; /* Warna teks item dropdown */
+  padding: 10px 15px; /* Ruang dalam item dropdown */
+  transition: background-color 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+/* Efek hover untuk item dropdown */
+.dropdown-item:hover {
+  background-color: #f8f9fa; /* Warna latar belakang saat hover */
+  color: #40b32b; /* Warna teks saat hover */
+}
+
+/* Styling untuk dropdown toggle */
+.nav-link.dropdown-toggle {
+  color: #212529; /* Warna teks untuk dropdown toggle */
+  padding: 10px 15px; /* Ruang dalam untuk dropdown toggle */
+  transition: color 0.3s ease; /* Transisi halus untuk efek hover */
+}
+
+/* Efek hover untuk dropdown toggle */
+.nav-link.dropdown-toggle:hover {
+  color: #37d81b; /* Warna teks saat hover */
+}
+
+/* Menyembunyikan dropdown saat tidak aktif */
+.dropdown-menu.show {
+  display: block; /* Menampilkan dropdown ketika aktif */
+}
+/* styel footer */
+/* Style for the container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for the row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+/* Style for the header */
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:red;
+}
+
+/* Style for the links */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #37d81b;
+}
+.col {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.col h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.col a {
+  font-size: 16px;
+  color: #ff0000;
+}
+
+
+.col a:hover {
+  color: #347928;
+}
+
+/* Style for the footer */
+.footer-left {
+  margin-right: auto;
+}
+
+.footer-right {
+  margin-left: auto;
+}
+
+/* Style for the horizontal rule */
+hr {
+  border: 1px solid #ccc;
+  width: 90%;
+  margin: auto;
+}
+
+/* Style for the social media icons */
+.fab {
+  font-size: 1.5rem;
+}
+
+footer {
+  margin: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}

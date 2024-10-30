@@ -1,0 +1,428 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>home</title>
+    <link rel="stylesheet" href="faculty.css">
+  </head>
+
+  <body>
+    <!-- top -->
+    <ul class="nav justify-content-end fixed-top">
+      <li class="nav-item dropdown">
+        <!-- Tombol dropdown dengan ikon pencarian -->
+        <a
+          class="nav-link haha dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fas fa-search"></i>
+          <!-- Ikon pencarian -->
+        </a>
+
+        <!-- Dropdown dengan form pencarian -->
+        <ul class="dropdown-menu p-3">
+          <li>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                style="width: 300px"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Link</a>
+      </li>
+      <li>
+        <a
+          href="src/login.html"
+          class="btn btn-primary btn-sm align-items-center"
+          style="margin-top: 5px"
+          >Login</a
+        >
+        <button
+          type="button"
+          class="btn btn-danger btn-sm align-items-center"
+          style="margin-top: 5px; margin-right: 5px"
+        >
+          Sign up
+        </button>
+      </li>
+    </ul>
+    <!-- end top -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://sttcipasung.ac.id/wp-content/uploads/2023/07/STT-CIPASUNG-2-e1688823058980.png"
+            alt="Brand Logo"
+            style="height: 60px"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 w-100 justify-content-between"
+          >
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Accreditation</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Student Achievements</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
+                <li><a class="dropdown-item" href="#">Contact</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Academics
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Faculty</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Academics</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Bachelor of Arts Degree</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Master of Arts Degree</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Experiential Learning</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Admissions & Aid
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">How to Apply</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Tuition & Financial Aid</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">International Students</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Campus Life
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Campus Life</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Residential Life</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Honor Code</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Parents</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Center for Ethical Living and Learning (ZCELL)</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <button type="button" class="btn btn-success">Sumbangan</button>
+            <button type="button" class="btn btn-success">PMB</button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <! -- end navbar -->
+    <!-- content prodi -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+/>
+<h1>PROGRAM STUDI</h1>
+
+<main class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0 row-one">
+        <div class="card">
+            <img src="../img/INFORMATIKA (1).png"alt="LOGO INFORMATIKA" class="logo-informatika"/>
+                 <div class="card-content">
+                    <h2 class="if">INFORMATIKA</h2></div>
+                        <p class="Informatika">Di Jurusan Informatika kamu akan mempelajari berbagai prinsip terkait ilmu komputer mulai dari proses perancangan, pengembangan, pengujian, hingga evaluasi sistem operasi perangkat lunak.</p>
+                            <a href="informatika.html" class="button">
+                                Find out more
+                                    <span class="material-symbols-outlined"> arrow_right_alt </span>
+                            </a>
+         </div>
+    </div>
+    <div class="col-sm-6 row-two">
+        <div class="card">
+          <img src="../img/TEKNIK INDUSRTRI.png" alt="LOGO TEKNIK INDUSTRI" class="logo-teknik-industri"/>
+            <div class="card-content">
+                <h2>TEKNIK INDUSTRI</h2>
+                    <p>Keilmuan Teknik Industri lahir dari keinginan untuk memperbaiki system pekerjaan yang sudah ada. Itu dibuktikan dengan salah satu bahasan dalam keilmuan Teknik Industri yang menerapkan Plan, Do, Check, Action.</p>
+                    <a href="#" class="button">
+                     Find out more
+                     <span class="material-symbols-outlined"> arrow_right_alt </span>
+                    </a>
+            </div>
+        </div>
+    </div>
+</main>
+      <!-- content 9 -->
+      <div class="container text-center mb-5">
+        <h2>ayo daftar!!</h2>
+        <p>daftar</p>
+        <button
+          type="button"
+          class="btn btn-secondary btn-lg align-items-center"
+        >
+          Daftar
+        </button>
+      </div>
+      <!-- end content 9 -->
+    </div>
+    <!-- end content -->
+
+    <hr class="my-4" style="border: 1px solid #ccc; width: 90%; margin: auto" />
+
+    <!-- content footer 1 -->
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col d-flex align-items-center">
+          <!-- Gambar berada di paling kiri -->
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://sttcipasung.ac.id/wp-content/uploads/2023/07/STT-CIPASUNG-2-e1688823058980.png"
+              alt="Brand Logo"
+              style="height: 75px"
+            />
+          </a>
+
+          <!-- Teks dan Tombol di sebelah kanan gambar -->
+          <div class="ms-auto d-flex align-items-center">
+            <a class="me-3">Get STT Cipasung News Delivered to Your Email</a>
+            <button type="button" class="btn btn-secondary">
+              Sign Up for Email
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer 1 -->
+
+    <hr class="my-4" style="border: 1px solid #ccc; width: 90%; margin: auto" />
+
+    <!-- footer 2 -->
+    <div class="container text-start mt-5">
+      <div class="row align-items-start">
+        <div class="col">
+          <h3>About</h3>
+          <a class="d-block mt-2">Accreditation</a>
+          <a class="d-block mt-2">Student Achievements</a>
+          <a class="d-block mt-2">Careers</a>
+          <a class="d-block mt-2">Contact</a>
+        </div>
+
+        <div class="col">
+          <h3>Academics</h3>
+          <a class="d-block mt-2">Faculty</a>
+          <a class="d-block mt-2">Academics</a>
+          <a class="d-block mt-2">BA Program</a>
+          <a class="d-block mt-2">MA Program</a>
+          <a class="d-block mt-2">Experiential Learning</a>
+        </div>
+        <div class="col">
+          <h3>Admissions&aid</h3>
+          <a class="d-block mt-2">How to Apply</a>
+          <a class="d-block mt-2">Tuition & Financial Aid</a>
+          <a class="d-block mt-2">International Students</a>
+        </div>
+        <div class="col">
+          <h3>Campus Life</h3>
+          <a class="d-block mt-2">Overview</a>
+          <a class="d-block mt-2">Residential Life</a>
+          <a class="d-block mt-2">Honor Code</a>
+          <a class="d-block mt-2">Parents</a>
+          <a class="d-block mt-2"
+            >Center for Ethical Living and Learning (ZCELL)</a
+          >
+        </div>
+        <div class="col">
+          <h3>Give</h3>
+          <a class="d-block mt-2">Ways to Give</a>
+          <a class="d-block mt-2">12000 Strong</a>
+          <a class="d-block mt-2">Legacy Giving</a>
+          <a class="d-block mt-2">Capital Projects</a>
+          <a class="d-block mt-2">Contact Advancement</a>
+        </div>
+        <div class="col">
+          <h3>Resources</h3>
+          <a class="d-block mt-2">College Catalog</a>
+          <a class="d-block mt-2">Features</a>
+          <a class="d-block mt-2">Calendar</a>
+          <a class="d-block mt-2">Transcript Request</a>
+          <a class="d-block mt-2">Volunteer</a>
+        </div>
+      </div>
+    </div>
+    <!-- end footer 2 -->
+
+    <hr class="my-4" style="border: 1px solid #ccc; width: 90%; margin: auto" />
+
+    <!-- footer 3 -->
+    <div class="container text-start mt-5 mb-5">
+      <div class="row align-items-start">
+        <div class="col">
+          <!-- Membuat h3 menjadi link -->
+          <h1>
+            <a href="tel:5103564760" class="text-decoration-none text-primary"
+              >510.356.4760</a
+            >
+          </h1>
+
+          <!-- Membuat a sebagai link juga -->
+          <a href="#" class="d-block text-decoration-none text-dark">Faculty</a>
+        </div>
+
+        <div class="col">
+          <h3>Administrative Office</h3>
+          <a href="#" class="d-block text-decoration-none text-dark">Faculty</a>
+        </div>
+        <div class="col">
+          <h3>Lower Campus</h3>
+          <a href="#" class="d-block text-decoration-none text-dark">Faculty</a>
+        </div>
+        <div class="col">
+          <h3>Upper Campus</h3>
+          <a href="#" class="d-block text-decoration-none text-dark">Faculty</a>
+        </div>
+      </div>
+    </div>
+    <!-- end footer 3 -->
+
+    <!-- footer 4 -->
+    <footer class="bg-dark text-white py-3 w-100">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <!-- Bagian Kiri -->
+        <div class="footer-left">
+          <span>© 2024</span> |
+          <a href="#" class="text-white text-decoration-none"
+            >Covid-19 Policy</a
+          >
+          |
+          <a href="#" class="text-white text-decoration-none">Privacy/CCPA</a>
+        </div>
+
+        <!-- Bagian Kanan: Ikon Media Sosial -->
+        <div class="footer-right">
+          <a href="#" class="text-white me-3"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-3"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer 4 -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
